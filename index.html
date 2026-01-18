@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>the best streanmer</title>
+        <link rel="stylesheet" href="style.css" >
+       
+    </head style="box-shadow: rgb(19, 230, 253);">
+    <body>
+    <header>
+        
+
+
+        <nav>
+  <div class="logo">
+    <img src="logo11p.png" alt="logo" width="100px" style="filter: drop-shadow(0 4px 10px rgba(0, 224, 253, 0.5)); display: block;">
+  </div>
+
+  <ul style="list-style: none; display: flex; gap: 10px; padding: 0;">
+    <li>
+      <a href="https://api.whatsapp.com/message/JHSYQS2W2NNZJ1?autoload=1&app_absent=0" style="display: inline-block; padding: 10px 20px; background-color: hsla(211, 100%, 50%, 0.016); color: white; text-decoration: none; border-radius: 5px;">
+        Contato
+      </a>
+    </li>
+    <li>
+      <a href="https://www.acessocineflix.vip/" style="display: inline-block; padding: 10px 20px; background-color: hsla(211, 100%, 50%, 0.016); color: white; text-decoration: none; border-radius: 5px;" >
+        Sobre
+      </a>
+    </li>
+  </ul>
+</header>
+</nav>
+     <h1 alt="MULTIPLATAFORMAS" font-family="gabriola ">MULTIPLATAFORMAS</h1>
+    </nav>
+     
+         <div class="video-container">
+    <video autoplay muted loop class="video-slider">
+      <source src="slidesitemp4.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+  </div>
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  let index = 0;
+  const slides = document.querySelectorAll('.slider-fade img');
+  // mostra imediatamente a primeira imagem
+  slides[index].classList.add('active');
+  function showSlide() {
+    slides.forEach((img, i) => {
+      img.classList.remove('active');
+      if (i === index) img.classList.add('active');
+    });
+    index = (index + 1) % slides.length;
+  }
+
+  // troca a cada 3 segundos
+  setInterval(showSlide, 3000);
+});
+function nextSlide() { showSlide(index + 1); }
+function prevSlide() { showSlide(index - 1);}
+</script>
+  </div>
+   <main class="grid-sections"> 
+  <section class="destaque">
+    <section class="destaque fade-in">
+    <h2 style="font-size:32px;">Assista tudo com qualidade e estabilidade</h2>
+    <p>Ampla variedade de canais, filmes e séries. Sem travamentos, com suporte dedicado.</p>
+    <a href="https://api.whatsapp.com/message/JHSYQS2W2NNZJ1?autoload=1&app_absent=0" class="botao-destaque">Assinar agora</a>
+     <a href="https://api.whatsapp.com/message/JHSYQS2W2NNZJ1?autoload=1&app_absent=0" class="botao-teste">Teste grátis 4hrs</a>
+    </section>
+  </section>
+   <section class="beneficios slide-in">
+  <section class="beneficios">
+    <h2>Por que escolher nosso servidor?</h2>
+    <ul>
+      <li>✅ Canais nacionais e internacionais em HD e Full HD</li>
+      <li>✅ Filmes e séries sempre atualizados </li>
+      <li>✅ Suporte via WhatsApp e Telegram</li>
+      <li>✅ Compatível com Smart TV, celular, computador, TV Box, firestick, video games</li>
+    </ul>
+    </section>
+  </section>
+</main>
+<section class="planos">
+  <h2>Planos disponíveis</h2>
+  <div class="tabela-planos">
+    <div class="plano">
+      <h3>Mensal</h3>
+      <p>R$ 20,00</p>
+      <a href="https://go.atomopay.com.br/pqv5zhbrfx?affh=mi6hgts1xu" class="botao-plano">Assinar</a>
+    </div>
+    <div class="plano">
+      <h3>Trimestral</h3>
+      <p>R$ 69,00</p>
+      <a href="https://go.atomopay.com.br/hrcqz?affh=mi6hgts1xu" class="botao-plano">Assinar</a>
+    </div>
+    <div class="plano">
+      <h3>Semestral</h3>
+      <p>R$ 97,00</p>
+      <a href="https://go.atomopay.com.br/cnjz2?affh=mi6hgts1xu" class="botao-plano">Assinar</a>
+    </div>
+  </div>
+</section>
+
+<section class="contato">
+  <h2>Fale com a gente</h2>
+  <p>Entre em contato pelo WhatsApp para tirar dúvidas ou ativar seu plano:</p>
+  <a href="https://wa.me/553284895480" class="botao-contato">WhatsApp</a>
+</section>
+ </body>
+ 
+ <footer>
+
+ </footer>
